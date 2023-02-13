@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Daniel_Salvatori_Portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/Daniel_Salvatori_Portfolio/static/js/main.8e5f828f.js",
+    "main.js": "/Daniel_Salvatori_Portfolio/static/js/main.25944744.js",
     "static/js/787.5d4e35a4.chunk.js": "/Daniel_Salvatori_Portfolio/static/js/787.5d4e35a4.chunk.js",
     "index.html": "/Daniel_Salvatori_Portfolio/index.html",
     "main.073c9b0a.css.map": "/Daniel_Salvatori_Portfolio/static/css/main.073c9b0a.css.map",
-    "main.8e5f828f.js.map": "/Daniel_Salvatori_Portfolio/static/js/main.8e5f828f.js.map",
+    "main.25944744.js.map": "/Daniel_Salvatori_Portfolio/static/js/main.25944744.js.map",
     "787.5d4e35a4.chunk.js.map": "/Daniel_Salvatori_Portfolio/static/js/787.5d4e35a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.8e5f828f.js"
+    "static/js/main.25944744.js"
   ]
 }
