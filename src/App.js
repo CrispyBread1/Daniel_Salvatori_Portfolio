@@ -1,9 +1,13 @@
 import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import HomePage from './containers/homePage';
 
 function App() {
   return (
     <div className="App">
-      <h1>Dan's portfolio</h1>
+      <Routes>
+      <Route exact path="/" element={HomePage}/>
+      </Routes>
     </div>
   );
 }
