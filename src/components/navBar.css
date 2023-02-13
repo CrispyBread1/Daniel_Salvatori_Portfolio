@@ -1,0 +1,7 @@
+ul {
+    flex-direction: row;
+}
+
+li {
+    text-decoration: none;
+}
