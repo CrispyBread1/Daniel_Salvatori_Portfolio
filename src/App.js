@@ -41,10 +41,11 @@ function App() {
   }
 
   const backToHomeFromCV = () => {
-    let background = document.querySelector(".Background");
-    background.classList.toggle("zoomright");
     setHome(true)
     setCv(false)
+    let background = document.querySelector(".Background");
+    background.classList.toggle("zoomright");
+    
 }
 
   const projectMoveToLeft = () => {
@@ -55,10 +56,11 @@ function App() {
   }
 
   const backToHomeFromProject = () => {
-    let background = document.querySelector(".Background");
-    background.classList.toggle("zoomleft");
     setHome(true)
     setProjects(false)
+    let background = document.querySelector(".Background");
+    background.classList.toggle("zoomleft");
+    
 }
 
 
@@ -67,6 +69,7 @@ function App() {
   return (
     <div className="Background">
     <h1>i am always renderd</h1>
+    <div className="Frog"></div>
         <div className="rednering-pages">
           {home && <HomePage cvMoveToRight={cvMoveToRight} projectMoveToLeft={projectMoveToLeft}/>}
           {!home && !projects &&  <CV backToHome={backToHomeFromCV}/>}

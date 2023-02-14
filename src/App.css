@@ -60,13 +60,25 @@ body {
   
 }
 
+.Frog {
+  background-image: url("./imgs/frog_front_preview_rev_1.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 30%;
+  top: 10%;
+  /* top: -40%; */
+}
+
 .rednering-pages{
   margin-top: 6%;
 }
-/* 
-#BackgroundCV {
+/*  
+.Background.zoomRightOut {
+  transition: transform 1s;
   transform: scale(1);
-} */
+}  */
 
 .Background.zoomright {
   transform-origin: right;
@@ -79,3 +91,8 @@ body {
   transition: transform 1s;
   transform: scale(2.1);
 }
+/* 
+.Background.zoomLeftOut {
+  transition: transform 1s;
+  transform: scale(1);
+}  */
