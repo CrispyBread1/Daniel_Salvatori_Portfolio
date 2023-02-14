@@ -1,0 +1,21 @@
+#CV {
+    border-style: dashed;
+    border-style: white;
+    text-align: right;
+    position: absolute;
+    left: 76.2%;
+    top: 53.6%;  
+    transform: translate(-50%, -50%); 
+    width: 47%;
+    height: 39.8%;
+}
+/* 
+#CV:hover {
+    transform: translate(-50%, -50%) scale(1.2);
+} */
+
+.Button {
+    font-size: 1%;
+    color: aliceblue;
+    
+}

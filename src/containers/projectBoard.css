@@ -1,0 +1,21 @@
+#Project {
+    border-style: dashed;
+    border-style: white;
+    text-align: left;
+    position: absolute;
+    right: 28.5%;
+    top: 63%; 
+    transform: translate(-50%, -50%); 
+    width: 47%;
+    height: 40%;
+}
+/* 
+#CV:hover {
+    transform: translate(-50%, -50%) scale(1.2);
+} */
+
+.Button {
+    font-size: 1%;
+    color: aliceblue;
+    
+}

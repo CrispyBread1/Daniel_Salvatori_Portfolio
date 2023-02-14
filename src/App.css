@@ -1,10 +1,10 @@
 
-
+/* 
 body{
   background-image: url(./imgs/playaround.jpg) ;
-  background-size: cover ;
-  
-}
+  background-size: cover;
+  transform: translate(-50%, -50%);
+} */
 
 #Title {
   text-align: right;
@@ -12,14 +12,70 @@ body{
   
 }
 
+.button {
+  position: right;
+}
 #NavBar {
   text-align: left;
 }
 
-  
-
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: red;
+} 
+/* 
 head {
   background-color: gray;
+} */
+
+/* #HomePage { */
+  /* position: absolute;
+  left: 50%;
+  top: 50%; 
+  transform: translate(-50%, -50%); */
+  /* transition: transform 0.5s; */
+/* } */
+/* #HomePage:hover {
+  transform: translate(-50%, -50%) scale(1.2);
+  
+} */
+
+body {
+  /* margin-top: 20%; */
+  padding: 0;
+  overflow: hidden;
+}
+.Background {
+  position: fixed;
+  top: -18%;
+  left: 0;
+  width: 100%;
+  height: 118%;
+  background-image: url("./imgs/background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
 }
 
+.rednering-pages{
+  margin-top: 6%;
+}
+/* 
+#BackgroundCV {
+  transform: scale(1);
+} */
 
+.Background.zoomright {
+  transform-origin: right;
+  transition: transform 1s;
+  transform: scale(2.1);
+}
+
+.Background.zoomleft {
+  transform-origin: 1% 68%  ;
+  transition: transform 1s;
+  transform: scale(2.1);
+}

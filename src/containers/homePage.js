@@ -1,8 +1,22 @@
 import React from "react"
+import './homePage.css'
 
-const HomePage = () => {
+const HomePage = ({cvMoveToRight, projectMoveToLeft}) => {
+
+    const moveToCV = () => {
+        cvMoveToRight()
+    }
+
+    const moveToProject = () => {
+        projectMoveToLeft()
+    }
     return (
-        <h1>home page</h1>
+        <div>
+        <h1 id="Title">Daniel Salvatori's Portfolio</h1>
+        <button onClick={moveToCV}>CV</button>
+        <button onClick={moveToProject}>Project</button>
+        
+        </div>
     )
 }
 
