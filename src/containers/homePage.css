@@ -7,14 +7,14 @@
     background-repeat: no-repeat; */
     height: auto;
     width: 1.5em;
-    position: fixed;
+    position:relative;
     left: 41.5em;
-    top: 23.5em;
+    top: 18.3em;
     
     /* top: -40%; */
   }
 
-  .Frog-moving-buttons{
+  /* .Frog-moving-buttons{
     position: fixed;
     top: 20%;
-  }
+  } */

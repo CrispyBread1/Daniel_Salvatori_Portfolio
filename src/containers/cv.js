@@ -21,7 +21,7 @@ const CV = ({backToHome}) => {
         <div id="CV" onClick={moveToHome}>
             <h1>CV</h1>
             <p >click me to return</p>
-            <div className= "Frog-back-image">
+            <div className= "Frog-back-image-cv">
                 <img src={FrogBack} width="130em" height="auto"/>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import React from "react"
 import './projectBoard.css'
+import FrogBack from '../imgs/frog_back.png'
 
 const ProjectBoard = ({backToHome}) => {
     
@@ -12,8 +13,11 @@ const ProjectBoard = ({backToHome}) => {
         
         <div id="Project" onClick={moveToHome} value="Project">
             <h1>Projet board</h1>
-      
-        <p  className='Button'>click me to return</p>
+
+        <p>click me to return</p>
+        <div className= "Frog-back-image-projects">
+                <img src={FrogBack} width="130em" height="auto"/>
+            </div>
         </div>
     )
 }

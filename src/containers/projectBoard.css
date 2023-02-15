@@ -14,8 +14,10 @@
     transform: translate(-50%, -50%) scale(1.2);
 } */
 
-.Button {
-    font-size: 1%;
-    color: aliceblue;
-    
+
+.Frog-back-image-projects {
+    /* height: auto; */
+    position: fixed;
+    left: 11.4em; 
+    top: 17.2em; 
 }

@@ -40,7 +40,7 @@ function App() {
   }
 
   const backToHome = (id) => {
-    setHome(true)
+    setTimeout(setHome(true), 1500)
     if(id === 'CV') {
       setCv(false)
       let background = document.querySelector(".Background");

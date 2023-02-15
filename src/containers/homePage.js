@@ -24,7 +24,7 @@ const HomePage = ({moveBackground}) => {
     const moveFroggy = (name) => {
         let id = null;
         let frog = document.querySelector(".Frog");
-        let posY = 24;
+        let posY = 19.2;
         let posX = 40;
         clearInterval(id);
         if (name === 'Project'){
@@ -61,6 +61,7 @@ const HomePage = ({moveBackground}) => {
     
   const changeImageJumpFacingRight = () => {
     setFrogImage(frogJumpRight)
+
   }
 
 
@@ -71,6 +72,7 @@ const HomePage = ({moveBackground}) => {
   const resetImage = () => {
     setFrogImage(frogFront)
   }
+
     return (
         <div>
         <h1 id="Title">Daniel Salvatori's Portfolio</h1>
