@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/Daniel_Salvatori_Portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/Daniel_Salvatori_Portfolio/static/js/main.ed0b730f.js",
+    "main.css": "/Daniel_Salvatori_Portfolio/static/css/main.0bbbe9ba.css",
+    "main.js": "/Daniel_Salvatori_Portfolio/static/js/main.3e0cb614.js",
     "static/js/787.5d4e35a4.chunk.js": "/Daniel_Salvatori_Portfolio/static/js/787.5d4e35a4.chunk.js",
+    "static/media/background-image.jpg": "/Daniel_Salvatori_Portfolio/static/media/background-image.d7c3a60f6cee5f6ee0a5.jpg",
+    "static/media/frog_front_preview_rev_1.png": "/Daniel_Salvatori_Portfolio/static/media/frog_front_preview_rev_1.a45c58e43d6bc1c4aa4d.png",
+    "static/media/frog_jump_reversed.png": "/Daniel_Salvatori_Portfolio/static/media/frog_jump_reversed.8385df26c39ef8c2eed6.png",
+    "static/media/frog_jump.png": "/Daniel_Salvatori_Portfolio/static/media/frog_jump.ffca9029d6c1e1dc2b31.png",
     "index.html": "/Daniel_Salvatori_Portfolio/index.html",
-    "main.073c9b0a.css.map": "/Daniel_Salvatori_Portfolio/static/css/main.073c9b0a.css.map",
-    "main.ed0b730f.js.map": "/Daniel_Salvatori_Portfolio/static/js/main.ed0b730f.js.map",
+    "main.0bbbe9ba.css.map": "/Daniel_Salvatori_Portfolio/static/css/main.0bbbe9ba.css.map",
+    "main.3e0cb614.js.map": "/Daniel_Salvatori_Portfolio/static/js/main.3e0cb614.js.map",
     "787.5d4e35a4.chunk.js.map": "/Daniel_Salvatori_Portfolio/static/js/787.5d4e35a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.ed0b730f.js"
+    "static/css/main.0bbbe9ba.css",
+    "static/js/main.3e0cb614.js"
   ]
 }
