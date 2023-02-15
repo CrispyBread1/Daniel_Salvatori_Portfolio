@@ -19,3 +19,10 @@
     color: aliceblue;
     
 }
+
+.Frog-back-image {
+    /* height: auto; */
+    position: fixed;
+    left: 21em; 
+    top: 17em; 
+}

@@ -9,15 +9,15 @@ const HomePage = ({moveBackground}) => {
     const [frogImage, setFrogImage] = useState(frogFront)
 
     const moveToCV = () => {
-        const id = document.querySelector('[id="CV"]')
-        moveFroggy(id.id)
-        moveBackground(id.id)
+        const id = document.querySelector('[id="CV-Button"]')
+        moveFroggy(id.value)
+        setTimeout(function() {moveBackground(id.value)}, 1500);
     }
 
     const moveToProject = () => {
-        const id = document.querySelector('[id="Project"]')
-        moveFroggy(id.id)
-        moveBackground(id.id)
+        const id = document.querySelector('[id="Project-Button"]')
+        moveFroggy(id.value)
+        setTimeout(function() {moveBackground(id.value)}, 1500); 
     }
 
 
@@ -42,7 +42,7 @@ const HomePage = ({moveBackground}) => {
                 frog.style.left = posX + 'em'; 
             }
             }
-        } else if (name === 'Project'){
+        } else if (name === 'CV'){
             id = setInterval(frame, 25);
             function frame() {
                 if (posX >= 68 ) {
@@ -98,11 +98,11 @@ const HomePage = ({moveBackground}) => {
     return (
         <div>
         <h1 id="Title">Daniel Salvatori's Portfolio</h1>
-        <button className="CV-Button"id="CV" onClick={moveToCV}>CV</button>
-        <button className="Project-Button"id="Project" onClick={moveToProject}>Project</button>
+        <button id="CV-Button" onClick={moveToCV} value="CV">CV</button>
+        <button id="Project-Button" onClick={moveToProject} value="Project">Project</button>
 
         <div className="Frog">
-            <img src={frogImage} onClick={moveFroggy} width="500%" height="auto"/>
+            <img src={frogImage} onClick={moveFroggy} width="130em" height="auto"/>
         </div>
         
         </div>
