@@ -34,7 +34,6 @@ const HomePage = ({moveBackground}) => {
                 clearInterval(id);
                 resetImage()
             } else {
-                console.log(posX)
                 changeImageJumpFacingLeft()
                 posY+= 0.25; 
                 posX-= 0.8;
@@ -49,7 +48,6 @@ const HomePage = ({moveBackground}) => {
                     clearInterval(id);
                     resetImage()
                 } else {
-                    console.log(posX)
                     changeImageJumpFacingRight()
                     posY+= 0.098; 
                     posX+= 0.8;
@@ -60,29 +58,7 @@ const HomePage = ({moveBackground}) => {
         }
     }
 
-    // const moveFroggyRight = () => {
-    //     let id = null;
-    //     let frog = document.querySelector(".Frog");
-    //     let posY = 24;
-    //     let posX = 40;
-    //     clearInterval(id);
-    //     id = setInterval(frame, 25);
-    //     function frame() {
-    //     if (posX >= 68 ) {
-    //         clearInterval(id);
-    //         resetImage()
-    //     } else {
-    //         console.log(posX)
-    //         changeImageJumpFacingRight()
-    //         posY+= 0.098; 
-    //         posX+= 0.8;
-    //         frog.style.top = posY + 'em'; 
-    //         frog.style.left = posX + 'em'; 
-    //         // pos = pos + 1
-    //     }
-    //     }
-    // }
-
+    
   const changeImageJumpFacingRight = () => {
     setFrogImage(frogJumpRight)
   }

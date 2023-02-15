@@ -12,20 +12,31 @@ function App() {
   const [cv, setCv] = useState(false)
   const [projects, setProjects] = useState(false)
 
-  
 
   
   const moveBackground = (id) => {
     setHome(false)
+
     if(id === 'CV') {
       setCv(true)
       let background = document.querySelector(".Background");
-      background.classList.toggle("zoomright");
+      if(background.className !== "Background"){
+        background.className = "Background"
+        background.classList.toggle("zoomright")
+      }else background.classList.toggle("zoomright");
+      
     } else if (id === 'Project') {
       setProjects(true)
       let background = document.querySelector(".Background");
-      background.classList.toggle("zoomleft")
+      if(background.className !== "Background"){
+        background.className = "Background"
+        background.classList.toggle("zoomleft")
+      } else {background.classList.toggle("zoomleft")
+        console.log(background.className)
+      }
+      
     }
+    console.log(document.querySelector(".Background"))
   }
 
   const backToHome = (id) => {
@@ -33,33 +44,29 @@ function App() {
     if(id === 'CV') {
       setCv(false)
       let background = document.querySelector(".Background");
-      background.classList.toggle("zoomright");
+      background.classList.toggle("out");
+      if (background.className == "Background Out"){
+        background.className = "Background"
+      }
     } else if (id === 'Project') {
       setProjects(false)
       let background = document.querySelector(".Background");
-      background.classList.toggle("zoomleft");
+      background.classList.toggle("out");
+      if (background.className == "Background Out"){
+        background.className = "Background"
+      }
     }
-    
-}
-  const timerForFrogLeft = () => {
-    // moveFroggyLeft()
-    setTimeout(moveBackground, 2000)
   }
-
-
-
 
   return (
     <div className="Background">
     <h1>i am always renderd</h1>
     
-
         <div className="rednering-pages">
           {home && <HomePage moveBackground={moveBackground}/>}
           {!home && !projects &&  <CV backToHome={backToHome}/>}
           {!home && !cv && <ProjectBoard backToHome={backToHome}/>}
         </div>
-     
     
     </div>
   );

@@ -57,7 +57,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
+  /* transition: transform 1.5s;
+  transform: scale(1); */
 }
 
 
@@ -65,11 +66,17 @@ body {
 .rednering-pages{
   margin-top: 6%;
 }
-/*  
-.Background.zoomRightOut {
-  transition: transform 1s;
+ 
+.Background.zoomright.out {
+  transform-origin:initial;
+  transition: transform 1.5s;
   transform: scale(1);
-}  */
+} 
+ 
+.Background.zoomleft.out {
+  transition: transform 1.5s;
+  transform: scale(1);
+} 
 
 .Background.zoomright {
   transform-origin: right;
