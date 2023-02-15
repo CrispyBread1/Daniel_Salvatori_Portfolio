@@ -1,9 +1,9 @@
 import './App.css';
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import HomePage from './containers/homePage';
 import CV from './containers/cv';
 import ProjectBoard from './containers/projectBoard';
+
 
 
 function App() {
@@ -12,56 +12,39 @@ function App() {
   const [cv, setCv] = useState(false)
   const [projects, setProjects] = useState(false)
 
-  const cvMoveToRight = () => {
-    console.log('i am running bitch')
-    setCv(true)
-    setHome(false)
-    // let id = null;
-    // const app = document.getElementById("App");
-    let background = document.querySelector(".Background");
-    // background.addEventListener("click", () => {
-    background.classList.toggle("zoomright");
-    // });
+  
 
-    // let pos = 0;
-    // clearInterval(id);
-    // id = setInterval(frame, 5);
-    // function frame() {
-    //   if (pos == 1000) {
-    //     clearInterval(id);
-    //   } else {
-    //     pos++; 
-    //     app.style.top = pos + 'px'; 
-    //   //  elem.style.
-    //     app.style.left = pos + 'px'; 
-    //     // console.log(elem.style.left)
-    //     app.style.height = pos + 'px';
-    //   }
-    // }
+  
+  const moveBackground = (id) => {
+    setHome(false)
+    if(id === 'CV') {
+      setCv(true)
+      let background = document.querySelector(".Background");
+      background.classList.toggle("zoomright");
+    } else if (id === 'Project') {
+      setProjects(true)
+      let background = document.querySelector(".Background");
+      background.classList.toggle("zoomleft")
+    }
   }
 
-  const backToHomeFromCV = () => {
+  const backToHome = (id) => {
     setHome(true)
-    setCv(false)
-    let background = document.querySelector(".Background");
-    background.classList.toggle("zoomright");
+    if(id === 'CV') {
+      setCv(false)
+      let background = document.querySelector(".Background");
+      background.classList.toggle("zoomright");
+    } else if (id === 'Project') {
+      setProjects(false)
+      let background = document.querySelector(".Background");
+      background.classList.toggle("zoomleft");
+    }
     
 }
-
-  const projectMoveToLeft = () => {
-    setHome(false)
-    setProjects(true)
-    let background = document.querySelector(".Background");
-    background.classList.toggle("zoomleft");
+  const timerForFrogLeft = () => {
+    // moveFroggyLeft()
+    setTimeout(moveBackground, 2000)
   }
-
-  const backToHomeFromProject = () => {
-    setHome(true)
-    setProjects(false)
-    let background = document.querySelector(".Background");
-    background.classList.toggle("zoomleft");
-    
-}
 
 
 
@@ -69,11 +52,12 @@ function App() {
   return (
     <div className="Background">
     <h1>i am always renderd</h1>
-    <div className="Frog"></div>
+    
+
         <div className="rednering-pages">
-          {home && <HomePage cvMoveToRight={cvMoveToRight} projectMoveToLeft={projectMoveToLeft}/>}
-          {!home && !projects &&  <CV backToHome={backToHomeFromCV}/>}
-          {!home && !cv && <ProjectBoard backToHome={backToHomeFromProject}/>}
+          {home && <HomePage moveBackground={moveBackground}/>}
+          {!home && !projects &&  <CV backToHome={backToHome}/>}
+          {!home && !cv && <ProjectBoard backToHome={backToHome}/>}
         </div>
      
     

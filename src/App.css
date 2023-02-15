@@ -60,16 +60,7 @@ body {
   
 }
 
-.Frog {
-  background-image: url("./imgs/frog_front_preview_rev_1.png");
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  left: 30%;
-  top: 10%;
-  /* top: -40%; */
-}
+
 
 .rednering-pages{
   margin-top: 6%;
@@ -82,17 +73,38 @@ body {
 
 .Background.zoomright {
   transform-origin: right;
-  transition: transform 1s;
+  transition: transform 1.5s;
   transform: scale(2.1);
 }
 
 .Background.zoomleft {
   transform-origin: 1% 68%  ;
-  transition: transform 1s;
+  transition: transform 1.5s;
   transform: scale(2.1);
 }
 /* 
 .Background.zoomLeftOut {
   transition: transform 1s;
   transform: scale(1);
-}  */
+}  */ 
+
+/* .Frog{ */
+  /* width: 5.7%; */
+  /* position: absolute;
+  top: -5%;
+  left: 57%;
+  animation: circle 10s linear infinite;
+  transform-origin: 0px 700px;
+  animation-fill-mode: forwards;
+  animation-direction: alternate; */
+/* } */
+/* 
+@keyframes circle {
+  from {
+    transform:rotate(-60deg); 
+  }
+  to { 
+    transform:rotate(40deg); 
+  }
+} */
+

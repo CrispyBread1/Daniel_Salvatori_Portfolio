@@ -5,7 +5,8 @@ const CV = ({backToHome}) => {
 
 
     const moveToHome = () => {
-        backToHome()
+        const id = document.querySelector('[id="CV"]')
+        backToHome(id.id)
     }
 
     // useEffect(() => {
