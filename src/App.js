@@ -12,7 +12,7 @@ function App() {
   const [cv, setCv] = useState(false)
   const [projects, setProjects] = useState(false)
 
-
+  const [returned, setReturned] = useState(false)
   
   const moveBackground = (id) => {
     setHome(false)
@@ -42,6 +42,7 @@ function App() {
   const backToHome = (id) => {
     setTimeout(setHome(true), 1500)
     if(id === 'CV') {
+      // setReturned(true)
       setCv(false)
       let background = document.querySelector(".Background");
       background.classList.toggle("out");
@@ -63,7 +64,7 @@ function App() {
     <h1>i am always renderd</h1>
     
         <div className="rednering-pages">
-          {home && <HomePage moveBackground={moveBackground}/>}
+          {home && <HomePage moveBackground={moveBackground} returned={returned}/>}
           {!home && !projects &&  <CV backToHome={backToHome}/>}
           {!home && !cv && <ProjectBoard backToHome={backToHome}/>}
         </div>

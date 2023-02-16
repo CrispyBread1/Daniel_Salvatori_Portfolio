@@ -1,20 +1,49 @@
-#CV-route{
-    text-decoration: none;
+.Frog {
+  height: auto;
+  width: 1.5em;
+  position: absolute;
+  left: 41.5em;
+  top: 32.5em;
 }
 
-.Frog {
-    /* background-image: url("./imgs/frog_front_preview_rev_1.png");
-    background-repeat: no-repeat; */
-    height: auto;
-    width: 1.5em;
-    position:relative;
-    left: 41.5em;
-    top: 18.3em;
-    
-    /* top: -40%; */
-  }
+.Project-Title {
+  position: absolute;
+  left: 32.5em;
+  top: 10em;
+}
 
-  /* .Frog-moving-buttons{
-    position: fixed;
-    top: 20%;
-  } */
+.NavButtons {
+  position: absolute;
+  left: 38.5em;
+  top: 17em;
+  display: flex;
+  flex-direction: row;
+}
+
+#Project-Button {
+  margin: 0.7em;
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+
+#CV-Button {
+  margin: 0.7em;
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+
+#CV-Button:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s;
+  cursor: pointer;
+  -webkit-filter: drop-shadow(0.5px 2px 1px #222);
+  filter: drop-shadow(0.5px 2px 1px #222);
+}
+
+#Project-Button:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s;
+  cursor: pointer;
+  -webkit-filter: drop-shadow(0.5px 2px 1px #222);
+  filter: drop-shadow(0.5px 2px 1px #222);
+}

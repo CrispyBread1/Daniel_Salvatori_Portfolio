@@ -1,23 +1,30 @@
 #Project {
-    border-style: dashed;
-    border-style: white;
-    text-align: left;
     position: absolute;
-    right: 28.5%;
-    top: 59%; 
-    transform: translate(-50%, -50%); 
-    width: 47%;
-    height: 35%;
+    right: 52em;
+    top: 27em; 
 }
-/* 
-#CV:hover {
-    transform: translate(-50%, -50%) scale(1.2);
-} */
 
 
 .Frog-back-image-projects {
     /* height: auto; */
     position: fixed;
     left: 11.4em; 
-    top: 17.2em; 
+    top: 42.7em; 
 }
+
+.Projects {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.HereToReturn {
+    position: absolute;
+    right: 40em;
+    top: -2em; 
+}
+
+.HereToReturn:hover {
+    cursor: pointer;
+}
+

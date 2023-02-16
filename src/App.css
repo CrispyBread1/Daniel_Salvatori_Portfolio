@@ -1,17 +1,3 @@
-
-/* 
-body{
-  background-image: url(./imgs/playaround.jpg) ;
-  background-size: cover;
-  transform: translate(-50%, -50%);
-} */
-
-#Title {
-  text-align: right;
-  color:  aqua;
-  
-}
-
 .button {
   position: right;
 }
@@ -24,26 +10,9 @@ body{
   height: 50px;
   position: absolute;
   background: red;
-} 
-/* 
-head {
-  background-color: gray;
-} */
-
-/* #HomePage { */
-  /* position: absolute;
-  left: 50%;
-  top: 50%; 
-  transform: translate(-50%, -50%); */
-  /* transition: transform 0.5s; */
-/* } */
-/* #HomePage:hover {
-  transform: translate(-50%, -50%) scale(1.2);
-  
-} */
+}
 
 body {
-  /* margin-top: 20%; */
   padding: 0;
   overflow: hidden;
 }
@@ -58,8 +27,6 @@ body {
   background-size: cover;
   background-position: center;
 }
-
-
 
 .rednering-pages{
   margin-top: 6%;
@@ -88,29 +55,3 @@ body {
   transition: transform 1.5s;
   transform: scale(2.1);
 }
-/* 
-.Background.zoomLeftOut {
-  transition: transform 1s;
-  transform: scale(1);
-}  */ 
-
-/* .Frog{ */
-  /* width: 5.7%; */
-  /* position: absolute;
-  top: -5%;
-  left: 57%;
-  animation: circle 10s linear infinite;
-  transform-origin: 0px 700px;
-  animation-fill-mode: forwards;
-  animation-direction: alternate; */
-/* } */
-/* 
-@keyframes circle {
-  from {
-    transform:rotate(-60deg); 
-  }
-  to { 
-    transform:rotate(40deg); 
-  }
-} */
-

@@ -1,20 +1,18 @@
 import React, { useEffect } from "react"
 import './cv.css'
 import FrogBack from '../imgs/frog_back.png'
-import Frogfront from '../imgs/frog_front_preview_rev_1.png'
+import HomePage from "./homePage.js"
 
 
 const CV = ({backToHome}) => {
-
+    const home = HomePage
 
     const moveToHome = () => {
         const id = document.querySelector('[id="CV"]')
         backToHome(id.id)
+        home.moveFroggyBacktoMiddle(id.id)
     }
 
-    // useEffect(() => {
-    //     moveToCV()
-    // }, [])
 
     return(
         
