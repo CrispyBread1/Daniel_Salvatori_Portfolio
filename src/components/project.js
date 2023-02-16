@@ -9,7 +9,7 @@ const Project = ({projetIMG, gitHubLink, title}) => {
         <div className="LinkTitle">
         <p className="ProjectTitle">{title}</p>
         <hr/>
-        <div className="GitHubLink"><a href={gitHubLink}>GitHub</a></div>
+        <div><a className="GitHubLink" href={gitHubLink}>GitHub</a></div>
         </div>
     </div>
     )

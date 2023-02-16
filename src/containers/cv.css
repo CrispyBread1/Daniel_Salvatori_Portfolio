@@ -1,7 +1,5 @@
 #CV {
-    border-style: dashed;
-    border-style: white;
-    text-align: right;
+    /* border-style: dashed; */
     position: absolute;
     left: 76.2%;
     top: 53.6%;  
@@ -14,7 +12,7 @@
 .CVToReturn {
     position: fixed;
     top: -1em;
-    right:0em;
+    right: 0.5em;
 }
 
 .CVToReturn:hover {
@@ -26,4 +24,42 @@
     position: fixed;
     left: 21em; 
     top: 17em; 
+}
+
+.DescriptionAboutMe{
+    width: 50em;
+    height: auto;
+    font-size: 7px;
+    text-align: left;
+    left: 1em;
+    position: fixed;
+}
+
+.ContactMeLinks {
+    text-decoration: none;
+    color: rgb(138, 123, 254);
+    margin: 0.5em;
+    margin-top: -0.5em;
+}
+
+.Email{
+    margin-bottom: -0.5em;
+}
+
+.ContactMeLinks:hover {
+    color: rgb(117, 104, 213);
+}
+
+.ContactList {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.ContactDetails {
+    position: absolute;
+    top: 27em;
+    right: 0em;
+    font-size: 11px;
 }
