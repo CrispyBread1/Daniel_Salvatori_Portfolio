@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/Daniel_Salvatori_Portfolio/static/css/main.b4b872bd.css",
-    "main.js": "/Daniel_Salvatori_Portfolio/static/js/main.80d42bd9.js",
+    "main.css": "/Daniel_Salvatori_Portfolio/static/css/main.1c7b73ce.css",
+    "main.js": "/Daniel_Salvatori_Portfolio/static/js/main.1a92836a.js",
     "static/js/787.5d4e35a4.chunk.js": "/Daniel_Salvatori_Portfolio/static/js/787.5d4e35a4.chunk.js",
+    "static/media/animal_adoption.png": "/Daniel_Salvatori_Portfolio/static/media/animal_adoption.c9dbfe4bdea24d2bfdf3.png",
+    "static/media/Break_time_app.png": "/Daniel_Salvatori_Portfolio/static/media/Break_time_app.e24976704660871a8407.png",
     "static/media/background-image.jpg": "/Daniel_Salvatori_Portfolio/static/media/background-image.d7c3a60f6cee5f6ee0a5.jpg",
+    "static/media/IMG_3439.JPG": "/Daniel_Salvatori_Portfolio/static/media/IMG_3439.5d673a43c1ea3e7fbc1e.JPG",
+    "static/media/stocks_app.png": "/Daniel_Salvatori_Portfolio/static/media/stocks_app.8dd923593914c39e5a71.png",
     "static/media/frog_front_preview_rev_1.png": "/Daniel_Salvatori_Portfolio/static/media/frog_front_preview_rev_1.a45c58e43d6bc1c4aa4d.png",
     "static/media/frog_back.png": "/Daniel_Salvatori_Portfolio/static/media/frog_back.a9e89982edfc044fc407.png",
     "static/media/frog_jump_reversed.png": "/Daniel_Salvatori_Portfolio/static/media/frog_jump_reversed.8385df26c39ef8c2eed6.png",
     "static/media/frog_jump.png": "/Daniel_Salvatori_Portfolio/static/media/frog_jump.ffca9029d6c1e1dc2b31.png",
+    "static/media/title.png": "/Daniel_Salvatori_Portfolio/static/media/title.7cb9044baef1f1f50b43.png",
     "index.html": "/Daniel_Salvatori_Portfolio/index.html",
-    "main.b4b872bd.css.map": "/Daniel_Salvatori_Portfolio/static/css/main.b4b872bd.css.map",
-    "main.80d42bd9.js.map": "/Daniel_Salvatori_Portfolio/static/js/main.80d42bd9.js.map",
+    "main.1c7b73ce.css.map": "/Daniel_Salvatori_Portfolio/static/css/main.1c7b73ce.css.map",
+    "main.1a92836a.js.map": "/Daniel_Salvatori_Portfolio/static/js/main.1a92836a.js.map",
     "787.5d4e35a4.chunk.js.map": "/Daniel_Salvatori_Portfolio/static/js/787.5d4e35a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4b872bd.css",
-    "static/js/main.80d42bd9.js"
+    "static/css/main.1c7b73ce.css",
+    "static/js/main.1a92836a.js"
   ]
 }
