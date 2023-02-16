@@ -36,13 +36,11 @@ function App() {
       }
       
     }
-    console.log(document.querySelector(".Background"))
   }
 
   const backToHome = (id) => {
     setTimeout(setHome(true), 1500)
     if(id === 'CV') {
-      // setReturned(true)
       setCv(false)
       let background = document.querySelector(".Background");
       background.classList.toggle("out");

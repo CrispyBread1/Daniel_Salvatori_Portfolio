@@ -13,6 +13,7 @@ const ProjectBoard = ({backToHome}) => {
     const stocksGit = 'https://github.com/CrispyBread1/Stock_Analysis_js.git'
 
     const titles = ['BreakTime Tracker', 'Animal Adoption App', 'Stock Probability Calculator']
+
     const moveToHome = () => {
         const id = document.querySelector('[id="Project"]')
         backToHome(id.id)
@@ -24,7 +25,7 @@ const ProjectBoard = ({backToHome}) => {
         
         <div id="Project" value="Project">
             {/* <h1>Projet board</h1> */}
-            <h5 className="HereToReturn" onClick={moveToHome}>click here to return</h5>
+            <h5 className="ProjectToReturn" onClick={moveToHome}>click here to return</h5>
 
             <div className= "Frog-back-image-projects">
                     <img src={FrogBack} width="130em" height="auto"/>

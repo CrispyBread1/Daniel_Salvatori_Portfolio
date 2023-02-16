@@ -9,15 +9,16 @@
     width: 47%;
     height: 39.8%;
 }
-/* 
-#CV:hover {
-    transform: translate(-50%, -50%) scale(1.2);
-} */
 
-.Button {
-    font-size: 1%;
-    color: aliceblue;
-    
+
+.CVToReturn {
+    position: fixed;
+    top: -1em;
+    right:0em;
+}
+
+.CVToReturn:hover {
+    cursor: pointer;
 }
 
 .Frog-back-image-cv {

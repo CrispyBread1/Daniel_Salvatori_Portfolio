@@ -19,13 +19,13 @@
     flex-direction: row;
 }
 
-.HereToReturn {
+.ProjectToReturn {
     position: absolute;
     right: 40em;
     top: -2em; 
 }
 
-.HereToReturn:hover {
+.ProjectToReturn:hover {
     cursor: pointer;
 }
 
