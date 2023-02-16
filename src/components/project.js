@@ -2,12 +2,15 @@ import React from "react";
 import './project.css'
 
 
-const Project = ({projetIMG}) => {
+const Project = ({projetIMG, gitHubLink, title}) => {
     return (
     <div className="Project-info">
-        <img className="Project-image" src={projetIMG} width="170em" height="auto"/>
-        
-        <link/>
+        <img className="Project-image" src={projetIMG} width="205em" height="auto"/>
+        <div className="LinkTitle">
+        <p className="ProjectTitle">{title}</p>
+        <hr/>
+        <div className="GitHubLink"><a href={gitHubLink}>GitHub</a></div>
+        </div>
     </div>
     )
 

@@ -1,10 +1,44 @@
 .Project-info {
+    text-align: center;
     border: 0.1em solid;
-    margin: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+    margin-bottom: -5em;
     text-decoration: none;
-    /* border: */
+}
+
+.LinkTitle {
+    background-color: rgb(41, 40, 40);
+    border-top: 0.1em solid;
 }
 
 .Project-image{
-    bottom: -0.1em;
+    bottom: -0.2em;
+}
+
+a {
+    margin: -0.1em;
+    text-decoration: none;
+    color: rgb(230, 216, 198);
+}
+
+hr {
+    margin: -0.1em; 
+}
+
+a:hover {
+    
+    color: rgb(191, 179, 163);
+}
+
+.ProjectTitle {
+    /* border-top: 5px; */
+    margin: -0.1em;
+    /* margin-bottom: -0.5em; */
+    color: rgb(251, 239, 223);
+}
+
+hr {
+    color: rgb(251, 239, 223);
 }

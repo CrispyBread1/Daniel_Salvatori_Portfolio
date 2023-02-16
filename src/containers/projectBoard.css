@@ -1,6 +1,6 @@
 #Project {
     position: absolute;
-    right: 52em;
+    left: 0em;
     top: 27em; 
 }
 
@@ -13,6 +13,7 @@
 }
 
 .Projects {
+     
     list-style: none;
     display: flex;
     flex-direction: row;
