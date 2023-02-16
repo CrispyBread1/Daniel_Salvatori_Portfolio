@@ -63,3 +63,13 @@
     right: 0em;
     font-size: 11px;
 }
+
+.Photo {
+    position: absolute;
+    top: 8em;
+    right: 25em;
+    border: solid 2px;
+    height: auto;
+    border-color: rgb(133, 67, 20);
+    border-radius: 80%;  
+}
