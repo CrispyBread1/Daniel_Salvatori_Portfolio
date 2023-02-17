@@ -28,35 +28,35 @@ const HomePage = ({moveBackground}) => {
     const moveFroggy = (name) => {
         let id = null;
         let frog = document.querySelector(".Frog");
-        let posY = 33;
-        let posX = 40;
+        let posY = 0;
+        let posX = 0;
         clearInterval(id);
         if (name === 'Project'){
             id = setInterval(frame, 25);
             function frame() {
-            if (posX <= 12 ) {
+            if (posX <= -60) {
                 clearInterval(id);
                 resetImage()
             } else {
                 changeImageJumpFacingLeft()
-                posY+= 0.25; 
-                posX-= 0.8;
-                frog.style.top = posY + 'em'; 
-                frog.style.left = posX + 'em'; 
+                posY+= 0.36; 
+                posX-= 1.2;
+                frog.style.top = posY + 'vh'; 
+                frog.style.left = posX + 'vh'; 
             }
             }
         } else if (name === 'CV'){
             id = setInterval(frame, 25);
             function frame() {
-                if (posX >= 68 ) {
+                if (posX >= 55 ) {
                     clearInterval(id);
                     resetImage()
                 } else {
                     changeImageJumpFacingRight()
-                    posY+= 0.098; 
-                    posX+= 0.8;
-                    frog.style.top = posY + 'em'; 
-                    frog.style.left = posX + 'em'; 
+                    posY+= 0.23; 
+                    posX+= 1.5;
+                    frog.style.top = posY + 'vh'; 
+                    frog.style.left = posX + 'vh'; 
                 }
                 }
         }
