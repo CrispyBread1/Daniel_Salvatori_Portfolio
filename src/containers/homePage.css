@@ -51,9 +51,9 @@
 .Frog {
   height: auto;
   width: 10%;
-  position: relative;
-  margin-left: 45.8%;
-  margin-top: 32%;
+  position: absolute;
+  left: 45.8%;
+  top: 53.5%;
 }
 
 .Project-Title {
