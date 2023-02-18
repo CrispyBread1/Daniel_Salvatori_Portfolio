@@ -11,8 +11,6 @@ function App() {
   const [home, setHome] = useState(true)
   const [cv, setCv] = useState(false)
   const [projects, setProjects] = useState(false)
-
-  const [returned, setReturned] = useState(false)
   
   const moveBackground = (id) => {
     setHome(false)
@@ -62,7 +60,7 @@ function App() {
     <h1>i am always renderd</h1>
     
         <div className="rednering-pages">
-          {home && <HomePage moveBackground={moveBackground} returned={returned}/>}
+          {home && <HomePage moveBackground={moveBackground}/>}
           {!home && !projects &&  <CV backToHome={backToHome}/>}
           {!home && !cv && <ProjectBoard backToHome={backToHome}/>}
         </div>

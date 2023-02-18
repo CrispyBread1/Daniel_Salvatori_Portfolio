@@ -49,11 +49,12 @@
 } */
 
 .Frog {
-  height: auto;
+  height: 50%;
   width: 10%;
   position: relative;
   margin-left: 45.8%;
   margin-top: 32%;
+  /* overflow: hidden; */
 }
 
 .Project-Title {

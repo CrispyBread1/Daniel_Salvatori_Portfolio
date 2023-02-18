@@ -5,17 +5,7 @@
   text-align: left;
 }
 
-#animate {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  background: red;
-}
 
-body {
-  padding: 0;
-  overflow: hidden;
-}
 .Background {
   position: fixed;
   top: -9.2em;
