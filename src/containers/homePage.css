@@ -47,25 +47,30 @@
   -webkit-filter: drop-shadow(0.5px 2px 1px #222);
   filter: drop-shadow(0.5px 2px 1px #222);
 } */
+/* 
+.Name {
+  position: fixed;
+  width: 100px;
+} */
 
 .Frog {
-  height: 50%;
-  width: 10%;
-  position: relative;
-  margin-left: 45.8%;
-  margin-top: 32%;
+  /* height: 50%; */
+  /* width: 10%; */
+  position: absolute;
+  left: 46.4%;
+  top: 53.4%;
   /* overflow: hidden; */
 }
 
 .Project-Title {
   position: absolute;
-  left: 35%;
+  left: 36%;
   top: 15%;
 }
 
 .NavButtons {
   position: absolute;
-  left: 50%;
+  left: 51%;
   top: 24%;
   transform: translateX(-50%);
   display: flex;

@@ -4,10 +4,17 @@
 #NavBar {
   text-align: left;
 }
-
-
+/* 
+body {
+  padding: 0;
+  width: 100px;
+  height: ;
+  overflow: hidden;
+} */
 .Background {
   position: fixed;
+  /* min-width: 100%;
+  min-height: ; */
   top: -9.2em;
   left: 0;
   width: 100%;

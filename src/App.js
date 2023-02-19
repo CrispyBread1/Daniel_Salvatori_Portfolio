@@ -57,10 +57,10 @@ function App() {
 
   return (
     <div className="Background">
-    <h1>i am always renderd</h1>
+    
     
         <div className="rednering-pages">
-          {home && <HomePage moveBackground={moveBackground}/>}
+          {home && <HomePage moveBackground={moveBackground} />}
           {!home && !projects &&  <CV backToHome={backToHome}/>}
           {!home && !cv && <ProjectBoard backToHome={backToHome}/>}
         </div>

@@ -28,35 +28,35 @@ const HomePage = ({moveBackground}) => {
     const moveFroggy = (name) => {
         let id = null;
         let frog = document.querySelector(".Frog");
-        let posY = 0;
-        let posX = 0;
+        let posY = 51.7;
+        let posX = 50;
         clearInterval(id);
         if (name === 'Project'){
             id = setInterval(frame, 25);
             function frame() {
-            if (posX <= -60) {
+            if (posX <= 13) {
                 clearInterval(id);
                 resetImage()
             } else {
                 changeImageJumpFacingLeft()
-                posY+= 0.36; 
-                posX-= 1.2;
-                frog.style.top = posY + 'vh'; 
-                frog.style.left = posX + 'vh'; 
+                posY+= 0.50; 
+                posX-= 1;
+                frog.style.top = posY + '%'; 
+                frog.style.left = posX + '%'; 
             }
             }
         } else if (name === 'CV'){
             id = setInterval(frame, 25);
             function frame() {
-                if (posX >= 55 ) {
+                if (posX >= 76 ) {
                     clearInterval(id);
                     resetImage()
                 } else {
                     changeImageJumpFacingRight()
-                    posY+= 0.23; 
-                    posX+= 1.5;
-                    frog.style.top = posY + 'vh'; 
-                    frog.style.left = posX + 'vh'; 
+                    posY+= 0.35; 
+                    posX+= 1;
+                    frog.style.top = posY + '%'; 
+                    frog.style.left = posX + '%'; 
                 }
                 }
         }
@@ -81,7 +81,7 @@ const HomePage = ({moveBackground}) => {
   }
 
     return (
-        <div>
+        <div className="Home">
         {/* <h1 className="Title">Salvatori's Portfolio</h1> */}
         <img className="Project-Title" src={projectTitle} width="400em" height="auto"/>
 
@@ -91,7 +91,7 @@ const HomePage = ({moveBackground}) => {
         </div>
 
         <div className="Frog">
-            <img src={frogImage} onClick={moveFroggy} width="130em" height="auto"/>
+            <img src={frogImage} onClick={moveFroggy} width="130em" />
         </div>
         
         </div>
