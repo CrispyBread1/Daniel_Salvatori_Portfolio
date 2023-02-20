@@ -1,30 +1,32 @@
 .Project-info {
     text-align: center;
-    border: 0.1em solid;
-    margin-top: 5px;
-    margin-left: 5px;
-    
-    margin-bottom: -5em;
+    margin-top: 0.2vw;
+    margin-left: 0.2vw;
+    border: 0.101vw solid;
+    margin-bottom: -5vw;
     text-decoration: none;
 }
 
 .LinkTitle {
     background-color: rgb(41, 40, 40);
-    border-top: 0.1em solid;
+    border-top: 0.101vw solid;
 }
 
 .Project-image{
-    bottom: -0.2em;
+    width: 14vw;
+    height: auto;
+    border: 0.101vw solid;
+
 }
 
 .GitHubLink {
-    margin: -0.1em;
+    margin: -0.1vw;
     text-decoration: none;
     color: rgb(230, 216, 198);
 }
 
 hr {
-    margin: -0.1em; 
+    margin: -0.1vw; 
 }
 
 .GitHubLink:hover {
@@ -34,9 +36,10 @@ hr {
 
 .ProjectTitle {
     /* border-top: 5px; */
-    margin: -0.1em;
+    margin: -0.1vw;
     /* margin-bottom: -0.5em; */
     color: rgb(251, 239, 223);
+    font-size: 1vw;
 }
 
 hr {

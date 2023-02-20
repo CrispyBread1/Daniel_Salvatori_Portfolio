@@ -1,92 +1,51 @@
-/* .Frog {
-  height: auto;
-  width: 1.5em;
-  position: absolute;
-  left: 41.5em;
-  top: 32.5em;
-}
-
-.Project-Title {
-  position: absolute;
-  left: 32.5em;
-  top: 10em;
-}
-
-.NavButtons {
-  position: absolute;
-  left: 38.5em;
-  top: 17em;
-  display: flex;
-  flex-direction: row;
-}
-
-#Project-Button {
-  margin: 0.7em;
-  transform: scale(1);
-  transition: transform 0.5s;
-}
-
-#CV-Button {
-  margin: 0.7em;
-  transform: scale(1);
-  transition: transform 0.5s;
-}
-
-#CV-Button:hover {
-  transform: scale(1.2);
-  transition: transform 0.5s;
-  cursor: pointer;
-  -webkit-filter: drop-shadow(0.5px 2px 1px #222);
-  filter: drop-shadow(0.5px 2px 1px #222);
-}
-
-#Project-Button:hover {
-  transform: scale(1.2);
-  transition: transform 0.5s;
-  cursor: pointer;
-  -webkit-filter: drop-shadow(0.5px 2px 1px #222);
-  filter: drop-shadow(0.5px 2px 1px #222);
-} */
-/* 
-.Name {
-  position: fixed;
-  width: 100px;
-} */
-
 .Frog {
-  /* height: 50%; */
-  /* width: 10%; */
   position: absolute;
-  left: 46.4%;
-  top: 53.4%;
-  /* overflow: hidden; */
+  left: 47.4vw;
+  top: 24.7vw;
 }
 
 .Project-Title {
+  width: 30vw;
+  height: auto;
   position: absolute;
-  left: 36%;
-  top: 15%;
+  left: 35.5vw;
+  top: 1vw;
 }
 
 .NavButtons {
   position: absolute;
-  left: 51%;
-  top: 24%;
-  transform: translateX(-50%);
+  left: 42vw;
+  top: 7vw;
   display: flex;
   flex-direction: row;
+}
+
+.Froggy-homepage-image {
+  width: 9vw;
+  height: auto;
 }
 
 #Project-Button {
   margin: 0.7em;
   transform: scale(1);
   transition: transform 0.5s;
+  
+}
+.Project-images {
+  height: auto;
+  width: 6.5vw;
 }
 
+.CV-images {
+  height: auto;
+  width: 8.2vw;
+}
 #CV-Button {
   margin: 0.7em;
   transform: scale(1);
   transition: transform 0.5s;
+  height: auto;
+  width: 5vw;
 }
 
 #CV-Button:hover {

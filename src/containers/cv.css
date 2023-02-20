@@ -1,49 +1,61 @@
 #CV {
     /* border-style: dashed; */
     position: absolute;
-    left: 76.2%;
-    top: 53.6%;  
-    transform: translate(-50%, -50%); 
-    width: 47%;
-    height: 39.8%;
+    right: 0vw;
+    top: 10vw;  
+    /* transform: translate(-50vw, -50vw);  */
+    width: 30vw;
+    height: 10vw;
+    /* border: dotted; */
+}
+
+.Frog-Back {
+    width: 10vw;
+    height: auto;
 }
 
 
 .CVToReturn {
     position: fixed;
-    top: -1em;
-    right: 0.5em;
+    top: 9.5vw;
+    right: 1vw;
 }
 
 .CVToReturn:hover {
     cursor: pointer;
 }
 
+.Photo {
+    width: 11vw;
+    height: auto;
+}
 .Frog-back-image-cv {
     /* height: auto; */
     position: fixed;
-    left: 21em; 
-    top: 17em; 
+    right: 12vw; 
+    top: 30vw; 
 }
 
 .DescriptionAboutMe{
-    width: 50em;
+    width: 24vw;
     height: auto;
-    font-size: 7px;
+    font-size: 0.6vw;
     text-align: left;
-    left: 1em;
+    right: 25.3vw;
     position: fixed;
 }
 
 .ContactMeLinks {
     text-decoration: none;
     color: rgb(138, 123, 254);
-    margin: 0.5em;
-    margin-top: -0.5em;
+    margin: 0.5vw;
+    margin-top: -0.5vw;
+    /* right: 0vw;
+    top: 10vw; */
 }
 
 .Email{
-    margin-bottom: -0.5em;
+    margin-bottom: -0.5vw;
 }
 
 .ContactMeLinks:hover {
@@ -54,21 +66,23 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .ContactDetails {
     position: absolute;
-    top: 27em;
-    right: 0em;
-    font-size: 11px;
+    top: 22.5vw;
+    right: 0.5vw;
+    /* width: vw; */
+    height: auto;
+    font-size: 0.7vw;
 }
 
 .Photo {
     position: absolute;
-    top: 8em;
-    right: 25em;
-    border: solid 2px;
+    top: 10vw;
+    right: 26vw;
+    border: solid 0.2vw;
     height: auto;
     border-color: rgb(133, 67, 20);
     border-radius: 80%;  

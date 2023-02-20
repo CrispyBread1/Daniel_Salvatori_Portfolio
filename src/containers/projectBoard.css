@@ -1,19 +1,18 @@
 #Project {
     position: absolute;
-    left: 0em;
-    top: 27em; 
+    left: 0vw;
+    top: 19vw; 
 }
 
 
 .Frog-back-image-projects {
     /* height: auto; */
-    position: fixed;
-    left: 11.4em; 
-    top: 42.7em; 
+    position: absolute;
+    left: 13.5vw; 
+    top: 17.5vw; 
 }
 
 .Projects {
-     
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -21,11 +20,16 @@
 
 .ProjectToReturn {
     position: absolute;
-    right: 40em;
-    top: -2em; 
+    right: 37vw;
+    top: -2vw; 
 }
 
 .ProjectToReturn:hover {
     cursor: pointer;
+}
+
+.Frog-Back-Image-Projectboard {
+    width: 8.5vw;
+    height: auto;
 }
 

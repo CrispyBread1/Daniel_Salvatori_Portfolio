@@ -28,35 +28,35 @@ const HomePage = ({moveBackground}) => {
     const moveFroggy = (name) => {
         let id = null;
         let frog = document.querySelector(".Frog");
-        let posY = 51.7;
+        let posY = 24;
         let posX = 50;
         clearInterval(id);
         if (name === 'Project'){
-            id = setInterval(frame, 25);
+            id = setInterval(frame, 40);
             function frame() {
-            if (posX <= 13) {
+            if (posX <= 15) {
                 clearInterval(id);
                 resetImage()
             } else {
                 changeImageJumpFacingLeft()
-                posY+= 0.50; 
-                posX-= 1;
-                frog.style.top = posY + '%'; 
-                frog.style.left = posX + '%'; 
+                posY+= 0.7; 
+                posX-= 2;
+                frog.style.top = posY + 'vw'; 
+                frog.style.left = posX + 'vw'; 
             }
             }
         } else if (name === 'CV'){
             id = setInterval(frame, 25);
             function frame() {
-                if (posX >= 76 ) {
+                if (posX >= 80 ) {
                     clearInterval(id);
                     resetImage()
                 } else {
                     changeImageJumpFacingRight()
-                    posY+= 0.35; 
+                    posY+= 0.18; 
                     posX+= 1;
-                    frog.style.top = posY + '%'; 
-                    frog.style.left = posX + '%'; 
+                    frog.style.top = posY + 'vw'; 
+                    frog.style.left = posX + 'vw'; 
                 }
                 }
         }
@@ -83,15 +83,15 @@ const HomePage = ({moveBackground}) => {
     return (
         <div className="Home">
         {/* <h1 className="Title">Salvatori's Portfolio</h1> */}
-        <img className="Project-Title" src={projectTitle} width="400em" height="auto"/>
+        <img className="Project-Title" src={projectTitle} />
 
         <div className="NavButtons">
-        <div onClick={moveToProject} id="Project-Button" value="Project"><img src={projectsButton}  width="80em" height="auto"/></div>
-        <div onClick={moveToCV} id="CV-Button" value="CV"><img src={aboutMeButton}  width="100em" height="auto"/></div>
+        <div onClick={moveToProject} id="Project-Button" value="Project"><img className="Project-images"src={projectsButton}/></div>
+        <div onClick={moveToCV} id="CV-Button" value="CV"><img className="CV-images"src={aboutMeButton}/></div>
         </div>
 
         <div className="Frog">
-            <img src={frogImage} onClick={moveFroggy} width="130em" />
+            <img className="Froggy-homepage-image"src={frogImage} onClick={moveFroggy} />
         </div>
         
         </div>

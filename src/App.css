@@ -4,51 +4,38 @@
 #NavBar {
   text-align: left;
 }
-/* 
-body {
-  padding: 0;
-  width: 100px;
-  height: ;
-  overflow: hidden;
-} */
+
 .Background {
   position: fixed;
-  /* min-width: 100%;
-  min-height: ; */
-  top: -9.2em;
   left: 0;
-  width: 100%;
-  height: 118%;
+  width: 100vw;
+  height: 57vw;
   background-image: url("./imgs/background-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.rednering-pages{
-  margin-top: 6%;
-}
- 
 .Background.zoomright.out {
-  transform-origin: right;
+  transform-origin: 100vw 20vw;
   transition: transform 1.5s;
   transform: scale(1);
 } 
  
 .Background.zoomleft.out {
-  transform-origin: 1% 68%;
+  transform-origin: 0vw 35vw;
   transition: transform 1.5s;
   transform: scale(1);
 } 
 
 .Background.zoomright {
-  transform-origin: right;
+  transform-origin: 100vw 20vw;
   transition: transform 1.5s;
-  transform: scale(2.1);
+  transform: scale(2);
 }
 
 .Background.zoomleft {
-  transform-origin: 1% 68%;
+  transform-origin: 0vw 35vw;
   transition: transform 1.5s;
-  transform: scale(2.1);
+  transform: scale(2);
 }

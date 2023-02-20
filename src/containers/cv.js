@@ -20,7 +20,7 @@ const CV = ({backToHome}) => {
         <div id="CV" >
             <h3 className="CVToReturn" onClick={moveToHome}>click here to return</h3>
             <div className= "Frog-back-image-cv">
-                <img src={FrogBack} width="130em" height="auto"/>
+                <img className="Frog-Back"src={FrogBack}/>
             </div>
             <div className="DescriptionAboutMe">
                 <p>
@@ -28,7 +28,7 @@ const CV = ({backToHome}) => {
                 </p>
             </div>
             <div className="PhotoMe">
-                <img className="Photo" src={Me} width="130em" height="auto"/>
+                <img className="Photo" src={Me}/>
             </div>
             <div className="ContactDetails">
                 <p className="Email">Email: dsalvatori2008@gmail.com</p>

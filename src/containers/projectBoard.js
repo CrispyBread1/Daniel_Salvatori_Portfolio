@@ -28,7 +28,7 @@ const ProjectBoard = ({backToHome}) => {
             <h5 className="ProjectToReturn" onClick={moveToHome}>click here to return</h5>
 
             <div className= "Frog-back-image-projects">
-                    <img src={FrogBack} width="130em" height="auto"/>
+                    <img className="Frog-Back-Image-Projectboard"src={FrogBack} />
             </div>
 
             <ul className="Projects">
