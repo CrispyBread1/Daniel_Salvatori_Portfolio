@@ -21,13 +21,16 @@
     border: 0.101vw solid;
     border-top-left-radius: 0.2vw;
     border-top-right-radius: 0.2vw;
-
 }
 
 .GitHubLink {
     margin: -0.1vw;
     text-decoration: none;
     color: rgb(230, 216, 198);
+}
+
+.ProjectDetails {
+  display: none;
 }
 
 hr {
@@ -37,6 +40,10 @@ hr {
 .GitHubLink:hover {
     cursor: pointer;
     color: rgb(191, 179, 163);
+}
+
+.LinkTitle:hover ~ .ProjectDetails {
+  display: contents;
 }
 
 .ProjectTitle {
