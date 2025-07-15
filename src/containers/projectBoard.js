@@ -26,7 +26,8 @@ const ProjectBoard = ({backToHome}) => {
         
         <div id="Project" value="Project">
             {/* <h1>Projet board</h1> */}
-            <h5 className="ProjectToReturn" onClick={moveToHome}>click here to return</h5>
+            <button className="ProjectToReturn" onClick={moveToHome} >Back</button>
+            {/* <h5 className="ProjectToReturn" onClick={moveToHome}>click here to return</h5> */}
 
             <div className= "Frog-back-image-projects">
                     <img className="Frog-Back-Image-Projectboard"src={FrogBack} />

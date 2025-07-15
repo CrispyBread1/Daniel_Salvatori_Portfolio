@@ -17,13 +17,11 @@
 
 .CVToReturn {
     position: fixed;
+    margin-top: 1vw;
     top: 9.5vw;
     right: 1vw;
 }
 
-.CVToReturn:hover {
-    cursor: pointer;
-}
 
 .Photo {
     width: 11vw;
