@@ -21,6 +21,9 @@ const ProjectBoard = ({backToHome}) => {
     const salvatori_admin_images = [salvatori_admin_1, salvatori_admin_2, salvatori_admin_3]
     const salvatori_stock_images = [salvatori_stock_1, salvatori_stock_2, salvatori_stock_3]
 
+    const salvatori_admin_details = ['Designed and developed a fully bespoke system in Python to automate operational workflows by integrating with Sage 50 and third-party services overcoming Sages lack of native automation capabilities. Reducing manual admin work from ~3 hours a day to under 5 minutes.']
+    const salvatori_stock_details = ['Designed and developed a fully bespoke system in Python to automate operational workflows by integrating with Sage 50 and third-party services overcoming Sages lack of native automation capabilities. Reducing manual admin work from ~3 hours a day to under 5 minutes.']
+
     const moveToHome = () => {
         const id = document.querySelector('[id="Project"]')
         backToHome(id.id)
@@ -38,8 +41,8 @@ const ProjectBoard = ({backToHome}) => {
             </div>
 
             <ul className="Projects">
-                <li className="SingleProject"><Project projectIMGs={salvatori_admin_images} gitHubLink={salvatoriButchersAdminGit} title={titles[0]}/></li>
-                <li className="SingleProject"><Project projectIMGs={salvatori_stock_images} gitHubLink={salvatoriStockAppGit} title={titles[1]}/></li>
+                <li className="SingleProject"><Project projectIMGs={salvatori_admin_images} gitHubLink={salvatoriButchersAdminGit} title={titles[0]} details={salvatori_admin_details}/></li>
+                <li className="SingleProject"><Project projectIMGs={salvatori_stock_images} gitHubLink={salvatoriStockAppGit} title={titles[1]} details={salvatori_stock_details}/></li>
             </ul>
             
         </div>

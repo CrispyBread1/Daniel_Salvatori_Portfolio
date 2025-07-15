@@ -2,9 +2,15 @@ import React from "react";
 import './project.css'
 
 
-const Project = ({projectIMGs, gitHubLink, title}) => {
+const Project = ({projectIMGs, gitHubLink, title, details}) => {
     
-
+  const configureDetails = () => {
+    const list_item = []
+    for (var detail of details) {
+      list_item.push(<li>{detail}</li>)
+    }
+    return list_item
+  }
   
   
   return (
@@ -17,7 +23,9 @@ const Project = ({projectIMGs, gitHubLink, title}) => {
           <a className="GitHubLink" href={gitHubLink}>GitHub</a></div>
         </div>
         <div className="ProjectDetails">
-          Hello lover
+          <ul>
+            {configureDetails()}
+          </ul>
         </div>
     </div>
     )

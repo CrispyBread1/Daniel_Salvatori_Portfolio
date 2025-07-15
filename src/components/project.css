@@ -31,6 +31,10 @@
 
 .ProjectDetails {
   display: none;
+  color:antiquewhite;
+  font-size: x-small;
+  max-width: 10vw;
+  width: 100%;
 }
 
 hr {

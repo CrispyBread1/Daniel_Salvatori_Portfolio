@@ -6,7 +6,6 @@
 
 
 .Frog-back-image-projects {
-    /* height: auto; */
     position: absolute;
     left: 13.5vw; 
     top: 17.5vw; 
@@ -19,14 +18,18 @@
   flex-direction: row;
   justify-content: space-between; 
   width: 100%; 
-  padding: 0 5vw; 
+  padding: 0 4vw; 
   margin: 0;
+}
+
+.SingleProject {
+  width: 17vw;
 }
 
 .ProjectToReturn {
     position: absolute;
-    right: 35.5vw;
-    top: -1vw; 
+    right: 38.5vw;
+    top: -1.2vw; 
 }
 
 .ProjectToReturn:hover {
