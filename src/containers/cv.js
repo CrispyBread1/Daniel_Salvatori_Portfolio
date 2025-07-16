@@ -28,9 +28,45 @@ const CV = ({backToHome}) => {
                     {/* 'For a short time when I was fifteen I lived in China for the summer, and later spent a term abroad in Toronto, allowing me to confidently connect and communicate with people. I like to build on interpersonal experiences through social and constructive collaboration with others. In my free time I tend to be working on photography projects, designing/rebuilding old coding applications, reading or baking. My introduction to software developing was when my Grandad taught me HTML. Using this I made a very basic fact website about Penguins. Later in life during Covid I became increasingly fascinated by how the world works. Istrarted to teach myself Python but struggled to make progress until I took a massive leap and signed up to the intensive three month CodeClan professional software engineering course. I instantly loved coding, the creative problem solving and the logic of how everything fits together.' */}
                 </p>
             </div>
-            <div className="PhotoMe">
+            {/* <div className="PhotoMe">
                 <img className="Photo" src={Me}/>
+            </div> */}
+            <div class="skills-section">
+              <h2>Skills / Programming Languages</h2>
+              <table class="skills-table">
+                <tr>
+                  <td>Ruby on Rails</td>
+                  <td>JavaScript</td>
+                  <td>Mongo DB</td>
+                  <td>Git/GitHub</td>
+                </tr>
+                <tr>
+                  <td>Python 3</td>
+                  <td>React</td>
+                  <td>SQL</td>
+                  <td>Firebase</td>
+                </tr>
+                <tr>
+                  <td>Flask</td>
+                  <td>Node.js</td>
+                  <td>HTML5</td>
+                  <td>C#</td>
+                </tr>
+                <tr>
+                  <td>Java</td>
+                  <td>Express.js</td>
+                  <td>CSS3</td>
+                  <td>Hotwire/Stimulus</td>
+                </tr>
+                <tr>
+                  <td>Supabase</td>
+                  <td>Unity</td>
+                  <td>Jinja</td>
+                  <td>Service Now</td>
+                </tr>
+              </table>
             </div>
+
             <div className="ContactDetails">
                 <p className="Email">Email: dsalvatori2008@gmail.com</p>
                 <ul className="ContactList">

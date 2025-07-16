@@ -1,12 +1,9 @@
 #CV {
-    /* border-style: dashed; */
     position: absolute;
     right: 0vw;
     top: 10vw;  
-    /* transform: translate(-50vw, -50vw);  */
-    width: 30vw;
-    height: 10vw;
-    /* border: dotted; */
+    width: 50vw;
+    height: 30vw;
 }
 
 .Frog-Back {
@@ -14,42 +11,76 @@
     height: auto;
 }
 
-
 .CVToReturn {
     position: fixed;
     margin-top: 1vw;
     top: 9.5vw;
     right: 1vw;
+    height: 0.8vw;
+    width: 1.9vw;
+    font-size: 0.5vw;
+    padding: 0;
 }
-
 
 .Photo {
-    width: 11vw;
+    width: 8vw;
     height: auto;
 }
+
 .Frog-back-image-cv {
-    /* height: auto; */
     position: fixed;
     right: 12vw; 
     top: 30vw; 
 }
 
-.DescriptionAboutMe{
-    width: 24vw;
+.DescriptionAboutMe {
+    width: 29vw;
     height: auto;
-    font-size: 0.6vw;
+    font-size: 0.7vw;
     text-align: left;
-    right: 25.3vw;
+    right: 20vw;
     position: fixed;
+    top: 11vw;
 }
+
+.skills-section {
+  width: 30vw;
+  font-size: 0.8vw;
+  margin-top: 6.5vw ;
+  font-family: 'Georgia', serif;
+  text-align: left;
+  padding: 0.1vw;
+  margin-left: 0.6vw;
+}
+
+.skills-section h2 {
+  font-size: 0.8vw;
+  font-weight: bold;
+  color: #734d30;
+  border-bottom: 2px solid #a56328;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+.skills-section tr > td {
+  font-size: 0.8vw;
+
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8vw;
+  border: 1px solid #ccc;
+}
+
 
 .ContactMeLinks {
     text-decoration: none;
     color: rgb(138, 123, 254);
     margin: 0.5vw;
     margin-top: -0.5vw;
-    /* right: 0vw;
-    top: 10vw; */
 }
 
 .Email{

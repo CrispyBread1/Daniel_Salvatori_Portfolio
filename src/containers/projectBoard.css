@@ -30,6 +30,10 @@
     position: absolute;
     right: 41vw;
     top: -1.2vw; 
+    height: 0.8vw;
+    width: 1.9vw;
+    font-size: 0.5vw;
+    padding: 0;
 }
 
 .ProjectToReturn:hover {

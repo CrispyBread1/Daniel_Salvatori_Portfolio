@@ -5,6 +5,7 @@ import Project from "../components/project"
 import salvatori_admin_1 from '../imgs/projects/salvatori_admin/admin_1.png'
 import salvatori_admin_2 from '../imgs/projects/salvatori_admin/admin_2.png'
 import salvatori_admin_3 from '../imgs/projects/salvatori_admin/admin_3.png'
+import salvatori_admin_4 from '../imgs/projects/salvatori_admin/admin_4.png'
 import salvatori_stock_1 from '../imgs/projects/salvatori_stock/stock_1.png'
 import salvatori_stock_2 from '../imgs/projects/salvatori_stock/stock_2.png'
 import salvatori_stock_3 from '../imgs/projects/salvatori_stock/stock_3.png'
@@ -18,7 +19,7 @@ const ProjectBoard = ({backToHome}) => {
 
     const titles = ['Salvatori Food Service: Desktop', 'Salvatori Food Service: App']
 
-    const salvatori_admin_images = [salvatori_admin_1, salvatori_admin_2, salvatori_admin_3]
+    const salvatori_admin_images = [salvatori_admin_1, salvatori_admin_2, salvatori_admin_3, salvatori_admin_4]
     const salvatori_stock_images = [salvatori_stock_1, salvatori_stock_2, salvatori_stock_3]
 
     const salvatori_admin_details = [
