@@ -63,7 +63,6 @@
 }
 .skills-section tr > td {
   font-size: 0.8vw;
-
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
@@ -74,7 +73,6 @@
   font-size: 0.8vw;
   border: 1px solid #ccc;
 }
-
 
 .ContactMeLinks {
     text-decoration: none;
@@ -95,22 +93,20 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    /* text-align: center; */
 }
 
 .ContactDetails {
     position: absolute;
     top: 22.5vw;
     right: 0.5vw;
-    /* width: vw; */
     height: auto;
     font-size: 0.7vw;
 }
 
 .Photo {
     position: absolute;
-    top: 10vw;
-    right: 26vw;
+    top: 4vw;
+    right: 4vw;
     border: solid 0.2vw;
     height: auto;
     border-color: rgb(133, 67, 20);
