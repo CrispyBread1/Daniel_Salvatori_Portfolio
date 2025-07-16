@@ -16,11 +16,21 @@
   border-top: 0.101vw solid;
 }
 
-.Project-image{
+.Project-image {
   height: 8vw;
   border: 0.101vw solid;
   border-top-left-radius: 0.2vw;
   border-top-right-radius: 0.2vw;
+}
+.Project-image {
+  height: 8vw;
+  border: 0.101vw solid;
+  border-top-left-radius: 0.2vw;
+  border-top-right-radius: 0.2vw;
+}
+
+.Project-info img {
+  transition: opacity 0.3s ease-in-out;
 }
 
 .GitHubLink {

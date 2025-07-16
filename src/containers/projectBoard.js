@@ -3,11 +3,11 @@ import './projectBoard.css'
 import FrogBack from '../imgs/frog_back.png'
 import Project from "../components/project"
 import salvatori_admin_1 from '../imgs/projects/salvatori_admin/admin_1.png'
-import salvatori_admin_2 from '../imgs/projects/salvatori_admin/admin_1.png'
-import salvatori_admin_3 from '../imgs/projects/salvatori_admin/admin_1.png'
+import salvatori_admin_2 from '../imgs/projects/salvatori_admin/admin_2.png'
+import salvatori_admin_3 from '../imgs/projects/salvatori_admin/admin_3.png'
 import salvatori_stock_1 from '../imgs/projects/salvatori_stock/stock_1.png'
-import salvatori_stock_2 from '../imgs/projects/salvatori_stock/stock_1.png'
-import salvatori_stock_3 from '../imgs/projects/salvatori_stock/stock_1.png'
+import salvatori_stock_2 from '../imgs/projects/salvatori_stock/stock_2.png'
+import salvatori_stock_3 from '../imgs/projects/salvatori_stock/stock_3.png'
 
 
 

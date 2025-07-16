@@ -1,10 +1,13 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import React  from "react";
 import './project.css'
 
 
 const Project = ({projectId, projectIMGs, gitHubLink, title, details}) => {
     
+  const [mouseEntered , setMouseEntered] = useState(false)
+  const [currentImageIndex, setCurrentImageIndex] = useState(0)
+
   const configureDetails = () => {
     const list_item = []
     for (var detail of details) {
@@ -67,10 +70,14 @@ const Project = ({projectId, projectIMGs, gitHubLink, title, details}) => {
     
     const handleMouseEnter = () => {
       setTimeout(checkForOverlap, 10);
+      setMouseEntered(true)
     }
     
     const handleMouseLeave = () => {
       setTimeout(checkForOverlap, 10);
+      setTimeout(checkForOverlap, 10);
+      setMouseEntered(false)
+      setCurrentImageIndex(0) // Reset to first image when mouse leaves
     }
     
     projectElement.addEventListener('mouseenter', handleMouseEnter);
@@ -89,6 +96,19 @@ const Project = ({projectId, projectIMGs, gitHubLink, title, details}) => {
       window.removeEventListener('resize', checkForOverlap);
     }
   }, [projectId]);
+
+  useEffect(() => {
+    if (mouseEntered && projectIMGs.length > 1) {
+      const timeout = setTimeout(swapImages, 1500)
+      return () => clearTimeout(timeout)
+    }
+  }, [mouseEntered, currentImageIndex, projectIMGs.length])
+
+  const swapImages = () => {
+    if (mouseEntered && projectIMGs && projectIMGs.length > 0) {
+      setCurrentImageIndex(prev => (prev + 1) % projectIMGs.length)
+    }
+  }
   
   
   return (
@@ -98,7 +118,7 @@ const Project = ({projectId, projectIMGs, gitHubLink, title, details}) => {
       // onMouseEnter={handleMouseEnter}
       // onMouseLeave={handleMouseLeave}
     >
-        <img className="Project-image" src={projectIMGs[0]}/>
+        <img className="Project-image" src={projectIMGs[currentImageIndex]}/>
         <div className="LinkTitle">
           <p className="ProjectTitle">{title}</p>
         <hr/>
