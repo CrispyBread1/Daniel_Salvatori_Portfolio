@@ -16,6 +16,12 @@
   border-top: 0.101vw solid;
 }
 
+.GitHubLinkDiv {
+  display: flex;
+  justify-content: center;
+  padding: 0.2vw;
+}
+
 .Project-image {
   height: 8vw;
   border: 0.101vw solid;

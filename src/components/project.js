@@ -115,14 +115,12 @@ const Project = ({projectId, projectIMGs, gitHubLink, title, details}) => {
     <div 
       className="Project-info"
       id={projectId}
-      // onMouseEnter={handleMouseEnter}
-      // onMouseLeave={handleMouseLeave}
     >
         <img className="Project-image" src={projectIMGs[currentImageIndex]}/>
         <div className="LinkTitle">
           <p className="ProjectTitle">{title}</p>
         <hr/>
-        <div>
+        <div className="GitHubLinkDiv">
           <a className="GitHubLink" href={gitHubLink}>GitHub</a></div>
         </div>
         <div className="ProjectDetails">
