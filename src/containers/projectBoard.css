@@ -18,17 +18,17 @@
   flex-direction: row;
   justify-content: space-between; 
   width: 100%; 
-  padding: 0 4vw; 
+  padding: 0 2vw; 
   margin: 0;
 }
 
 .SingleProject {
-  width: 17vw;
+  width: 20vw;
 }
 
 .ProjectToReturn {
     position: absolute;
-    right: 38.5vw;
+    right: 41vw;
     top: -1.2vw; 
 }
 
