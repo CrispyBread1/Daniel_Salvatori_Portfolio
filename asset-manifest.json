@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "/Daniel_Salvatori_Portfolio/static/css/main.3c88ff25.css",
-    "main.js": "/Daniel_Salvatori_Portfolio/static/js/main.b9090888.js",
+    "main.css": "/Daniel_Salvatori_Portfolio/static/css/main.6a0ad217.css",
+    "main.js": "/Daniel_Salvatori_Portfolio/static/js/main.37323150.js",
     "static/js/787.5d4e35a4.chunk.js": "/Daniel_Salvatori_Portfolio/static/js/787.5d4e35a4.chunk.js",
-    "static/media/Robit.png": "/Daniel_Salvatori_Portfolio/static/media/Robit.8f99dad30d444a520ec7.png",
-    "static/media/animal_adoption.png": "/Daniel_Salvatori_Portfolio/static/media/animal_adoption.c9dbfe4bdea24d2bfdf3.png",
     "static/media/background-image.jpg": "/Daniel_Salvatori_Portfolio/static/media/background-image.d3618a076beb847a388d.jpg",
+    "static/media/admin_4.png": "/Daniel_Salvatori_Portfolio/static/media/admin_4.02db162d34363cedfa77.png",
+    "static/media/admin_3.png": "/Daniel_Salvatori_Portfolio/static/media/admin_3.7806aa08949d9170f213.png",
+    "static/media/stock_3.png": "/Daniel_Salvatori_Portfolio/static/media/stock_3.d1d04a23fd1e2a9bbbd6.png",
     "static/media/IMG_3439.JPG": "/Daniel_Salvatori_Portfolio/static/media/IMG_3439.5d673a43c1ea3e7fbc1e.JPG",
-    "static/media/stocks_app.png": "/Daniel_Salvatori_Portfolio/static/media/stocks_app.8dd923593914c39e5a71.png",
+    "static/media/stock_2.png": "/Daniel_Salvatori_Portfolio/static/media/stock_2.68276d813613c50a7c37.png",
+    "static/media/admin_2.png": "/Daniel_Salvatori_Portfolio/static/media/admin_2.417101b442421b80f099.png",
+    "static/media/admin_1.png": "/Daniel_Salvatori_Portfolio/static/media/admin_1.767acd6ffce8d51523fc.png",
+    "static/media/stock_1.png": "/Daniel_Salvatori_Portfolio/static/media/stock_1.6b9033d3556a34c1d54e.png",
     "static/media/frog_front_preview_rev_1.png": "/Daniel_Salvatori_Portfolio/static/media/frog_front_preview_rev_1.a45c58e43d6bc1c4aa4d.png",
     "static/media/frog_back.png": "/Daniel_Salvatori_Portfolio/static/media/frog_back.a9e89982edfc044fc407.png",
     "static/media/frog_jump_reversed.png": "/Daniel_Salvatori_Portfolio/static/media/frog_jump_reversed.8385df26c39ef8c2eed6.png",
     "static/media/frog_jump.png": "/Daniel_Salvatori_Portfolio/static/media/frog_jump.ffca9029d6c1e1dc2b31.png",
     "static/media/title.png": "/Daniel_Salvatori_Portfolio/static/media/title.7cb9044baef1f1f50b43.png",
     "index.html": "/Daniel_Salvatori_Portfolio/index.html",
-    "main.3c88ff25.css.map": "/Daniel_Salvatori_Portfolio/static/css/main.3c88ff25.css.map",
-    "main.b9090888.js.map": "/Daniel_Salvatori_Portfolio/static/js/main.b9090888.js.map",
+    "main.6a0ad217.css.map": "/Daniel_Salvatori_Portfolio/static/css/main.6a0ad217.css.map",
+    "main.37323150.js.map": "/Daniel_Salvatori_Portfolio/static/js/main.37323150.js.map",
     "787.5d4e35a4.chunk.js.map": "/Daniel_Salvatori_Portfolio/static/js/787.5d4e35a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c88ff25.css",
-    "static/js/main.b9090888.js"
+    "static/css/main.6a0ad217.css",
+    "static/js/main.37323150.js"
   ]
 }
