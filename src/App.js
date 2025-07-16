@@ -42,14 +42,14 @@ function App() {
       setCv(false)
       let background = document.querySelector(".Background");
       background.classList.toggle("out");
-      if (background.className == "Background Out"){
+      if (background.className === "Background Out"){
         background.className = "Background"
       }
     } else if (id === 'Project') {
       setProjects(false)
       let background = document.querySelector(".Background");
       background.classList.toggle("out");
-      if (background.className == "Background Out"){
+      if (background.className === "Background Out"){
         background.className = "Background"
       }
     }

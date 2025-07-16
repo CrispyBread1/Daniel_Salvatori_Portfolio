@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useState } from "react"
 import './homePage.css'
 import frogFront from '../imgs/frog_front_preview_rev_1.png'
 import frogJumpRight from '../imgs/frog_jump.png'
@@ -61,12 +61,6 @@ const HomePage = ({moveBackground}) => {
                 }
         }
     }
-
-    const moveFroggyBacktoMiddle = (name) => {
-        console.log(name)
-    }
-    
-
 
   const changeImageJumpFacingRight = () => {
     setFrogImage(frogJumpRight)
